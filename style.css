@@ -78,7 +78,7 @@ p#time {
   opacity: 0.8;
 }
 
-.dot {
+.circle {
   position: absolute;
   margin: auto;
   width: 30px;
@@ -88,4 +88,16 @@ p#time {
   top: 64%;
   left: 49.1%;
   opacity: 0.9;
+}
+
+.BigCircle {
+  position: absolute;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  top: 61%;
+  left: 48.1%;
+  opacity: 0.75;
 }
