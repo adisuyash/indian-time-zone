@@ -33,3 +33,75 @@ p#time {
   letter-spacing: 5px;
   font-size: 25px;
 }
+
+#AnalogClock {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/800px-Horlo%C4%9Do_001.svg.png) no-repeat;
+  background-size: cover;
+  background-color: white;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  border: solid 2px black;
+  margin: auto;
+  position: relative;
+}
+
+#hour, 
+#minute, 
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 1em;
+    transform-origin: bottom;
+}
+
+
+#hour {
+  width: 1.5em;
+  height: 5em;
+  top: 5em;
+  left: 9.25em;
+  border-radius: 0.75em 0.75em 0 0;
+  opacity: 0.8;
+}
+
+#minute {
+  width: 1em;
+  height: 7em;
+  top: 3em;
+  left: 9.5em;
+  border-radius: 0.5em;
+  opacity: 0.8;
+}
+
+#second {
+  background: red;
+  border-radius: 0.25em;
+  width: 0.25em;
+  height: 8em;
+  top: 2em;
+  left: 9.75em;
+  opacity: 0.8;
+}
+
+.circle {
+  opacity: 0.9;
+  height:2em;
+  width: 2em;
+  border-radius:50%;
+  top:9em;
+  left:9em;
+  background-color: black;
+  position: absolute;
+}
+
+.BigCircle {
+  opacity: 0.75;
+  height:5em;
+  width: 5em;
+  border-radius:50%;
+  top:7.5em;
+  left:7.5em;
+  background-color: black;
+  position: absolute;
+}
