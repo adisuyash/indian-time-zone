@@ -1,5 +1,4 @@
-setInterval(uptime, 1000);
-function uptime() {
+setInterval(()=> {
   d = new Date();
   time.innerHTML = d;
   hr = d.getHours();
@@ -12,4 +11,4 @@ function uptime() {
   hour.style.transform = `rotate(${hr_rotation}deg)`;     //rotate the hour div
   minute.style.transform = `rotate(${min_rotation}deg)`;  //rotate the minute div
   second.style.transform = `rotate(${sec_rotation}deg)`;  //rotate the second div
-}
+}, 1000);
